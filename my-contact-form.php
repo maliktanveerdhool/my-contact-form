@@ -2,7 +2,7 @@
 /**
  * Plugin Name: My Contact Form
  * Description: Simple contact form plugin with GitHub-driven auto-updates.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Tanveer
  * Author URI: https://yourwebsite.com
  * Text Domain: my-contact-form
