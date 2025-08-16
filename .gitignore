@@ -1,0 +1,30 @@
+# WordPress plugin .gitignore
+# Keep vendor/ committed so production has dependencies and autoload
+# If you prefer not to commit vendor, ensure you bundle plugin-update-checker/ or run Composer on deploy.
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+.idea/
+.vscode/
+
+# Composer
+# vendor/
+composer.phar
+
+# Node (if used later)
+node_modules/
+.npm/
+
+# Env
+.env
+.env.*
+
+# Build artifacts
+/dist/
+/build/
